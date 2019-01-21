@@ -1,0 +1,298 @@
+body {
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	}
+
+#wrapper {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+}
+
+.block_navy {
+	background-color: #142852;
+	padding: 60px 0;
+	min-width: 1080px;
+}
+.block_pink {
+	background-color: #f9d1cc;
+	padding: 60px 0;
+	min-width: 1080px;
+}
+
+.contents {
+	margin: 0 auto;
+	text-align: center;
+	width: 1080px;
+}
+
+h1 {
+}
+
+h2 { margin-bottom: 30px; }
+
+h2 img {
+
+}
+
+h3 {
+	margin-bottom: 10px;
+}
+
+h3 img {
+	margin: 0 auto;
+	width: 70%;	
+}
+h4 { color: #333; font-weight: bold; }
+.main_image {
+	width: 450px;
+}
+
+.heading {
+	margin: 0 auto;
+	width: 250px;
+}
+
+.heading2 {
+	margin: 0 auto 45px;
+	width: 480px;
+}
+
+.block_half {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	width: 50%;
+}
+
+.schedule_wrap {
+	padding: 30px 0;
+}
+
+.schedule_wrap > p {
+	font-size: 90%;
+}
+
+.name_venue {
+	background-color: #000;
+	height: 30px;
+	margin: 10px 0;
+	padding: 5px 20px;
+}
+
+.block {
+}
+
+.bandle_wrap {
+	margin-bottom: 40px;
+}
+
+.bandle_img {
+	margin-bottom: 20px;
+	width: 300px;
+}
+
+.bundle_contents {
+	color: #b99853;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+.bundle_contents > li {
+}
+
+.bundle_credit {
+	color: #b99853;
+	font-weight: bold;
+}
+
+.bundle_credit > li {
+}
+.ticket_playguide {
+	border-bottom: 1px solid #000;
+	font-family:-apple-system,’Lucida Grande’,‘Helvetica Neue’,’Hiragino Kaku Gothic ProN’,‘游ゴシック’,’メイリオ’,meiryo,sans-serif;
+	margin: 20px auto 0;
+	text-align: center;
+	width: 50%;
+}
+.ticket_playguide > li {
+	font-weight: bold;
+	font-size: 80%;
+	padding: 5px 0;
+	margin: 0 auto;
+}
+.ticket_playguide > li:hover {
+	background: #000;
+	color: #fff;
+}
+.ticket_playguide > li:first-child {
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+	color: #000;
+	font-size: 70%;
+	padding: 2px 0px;
+	margin: 0 auto 10px;
+}
+.ticket_playguide > li:first-child {
+	background: transparent;
+	color: #000;
+}
+.onegai {
+	color: #b99853;
+	border-bottom: 1px solid #b99853;
+	border-top: 1px solid #b99853;
+	padding: 10px 0;
+	margin: 30px auto 0;
+	width: 90%;
+}
+.sale_rule {
+	color: #b99853;
+	border-bottom: 1px solid #b99853;
+	border-top: 1px solid #b99853;
+	padding: 10px 0;
+	margin: 30px auto 0;
+	width: 90%;
+}
+
+footer {
+	background-color: #CCC;
+	text-align: center;
+	padding: 5px;
+}
+footer p {
+	color: #fff;
+	font-size: 70%;
+	font-weight: normal;
+}
+
+
+/* hover */
+.boxgrid	{ 
+	border: 3px solid #fff;
+	display: inline-block;
+	margin: 5px;
+	width: 350px;
+	height: 350px; 
+	overflow: hidden; 
+	position: relative;
+}
+.boxgrid img{ 
+	position: absolute; 
+	top: 0; 
+	left: 0;
+	width: 100%;
+	opacity: 0.5;
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+.boxgrid img:hover {
+	opacity: 1;
+}
+	
+.boxcaption{
+	background: -webkit-gradient(linear, left top, right bottom, from(#ddd), color-stop(0.25, #ddd), color-stop(0.25, white), color-stop(0.5, white), color-stop(0.5, #ddd), color-stop(0.75, #ddd), color-stop(0.75, white), to(white));
+	background: -moz-linear-gradient(-45deg, #ddd 25%, white 25%, white 50%, #ddd 50%, #ddd 75%, white 75%, white);
+	background: linear-gradient(-45deg, #ddd 25%, white 25%, white 50%, #ddd 50%, #ddd 75%, white 75%, white);
+	background-size: 4px 4px;
+	float: left; 
+	position: absolute; 
+	height: 300px; 
+	width: 100%; 
+	opacity: 0.8; 
+	/* For IE 5-7 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+	/* For IE 8 */
+	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+.boxcaption p { color: #333; }
+.captionfull .boxcaption {
+	top: 333px;
+	left: 0;
+}
+.caption .boxcaption {
+	top: 333px;
+	left: 0;
+}
+
+/*================================================
+ *  ソーシャルボタン
+ ================================================*/
+
+
+
+/*================================================
+ *  スマートフォン向けデザイン
+ ================================================*/
+@media screen and (max-width:767px) {
+
+h3 img {
+	margin: 30px auto 0;	
+}
+.top {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contents {
+	width: 100%;
+}
+.main_image {
+	width: 80%;
+}
+.block_navy { padding: 60px 0; min-width: 100%; }
+.block_pink { min-width: 100%; }
+
+.block_half {
+	width: 100%;
+}
+.heading {
+	margin: 0 auto;
+	width: 50%;
+}
+.heading2 {
+	margin: 0 auto;
+	width: 90%;
+}
+.ticket_playguide { width: 90%; }
+.schedule_wrap {
+	margin: 0 auto;
+	width: 95%;
+}
+.bandle_wrap {
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 95%;
+}
+.onegai {
+	font-size: 90%;
+	text-align:left;
+	font-weight:bold;
+}
+
+/* hover */
+.boxgrid {
+	border: 0;
+	height: auto;
+	margin: 0 auto 5px;
+	width: 50%;
+}
+.boxgrid img {
+	border: 3px solid #fff;
+	opacity: 1.0;
+	position: relative;
+	margin: 0 auto;
+	width: 95%;
+}
+/*================================================
+ *  ソーシャルボタン
+ ================================================*/
+
+
+}
